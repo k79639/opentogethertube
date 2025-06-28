@@ -64,6 +64,5 @@
     "prettier": "^2.5.1",
     "supertest": "6.3.3",
     "ts-node": "^10.9.1"
-  },
-  "packageManager": "yarn@4.1.0"
+  }
 }
