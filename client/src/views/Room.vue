@@ -928,4 +928,23 @@ $in-video-chat-width-small: 250px;
 		width: 100%;
 	}
 }
+
+@media (max-width: 768px) {
+	.video-container {
+		display: flex !important;
+		flex-direction: column !important;
+		align-items: stretch !important;
+	}
+	.video-subcontainer,
+	.out-video-chat {
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+	.out-video-chat {
+		min-height: 200px;
+		max-height: 40vh;
+		overflow-y: auto;
+		pointer-events: auto !important;
+	}
+}
 </style>
